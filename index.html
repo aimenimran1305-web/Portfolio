@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aimen Imran | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="logo">AI</div>
+
+    <h1>Aimen Imran</h1>
+
+    <p class="role">
+      Graphic Designer & Web Developer
+    </p>
+
+    <p class="tagline">
+      Creating clean and modern digital experiences
+    </p>
+
+    <div class="buttons">
+      <button onclick="openSection('about')">About</button>
+      <button onclick="openSection('skills')">Skills</button>
+      <button onclick="openSection('services')">Services</button>
+      <button onclick="openSection('contact')">Contact</button>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <div id="about" class="popup">
+    <span onclick="closeSection('about')" class="close">×</span>
+
+    <h2>About Me</h2>
+
+    <p>
+      I am Aimen Imran, a passionate Graphic Designer and aspiring Web Developer.
+
+      I specialize in creating visually appealing designs including logos, Instagram posts,
+      and complete brand identities that help individuals and businesses present themselves professionally.
+
+      Currently, I am working at an intermediate level in graphic design using Canva and continuously improving
+      my skills in Photoshop, Illustrator, HTML, CSS, and JavaScript.
+
+      I enjoy combining creativity with technology to build modern digital experiences.
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills" class="popup">
+    <span onclick="closeSection('skills')" class="close">×</span>
+
+    <h2>Skills</h2>
+
+    <ul>
+      <li>Canva (Expert)</li>
+      <li>Logo Design</li>
+      <li>Social Media Posts</li>
+      <li>Branding</li>
+      <li>HTML (Basic)</li>
+      <li>CSS (Basic)</li>
+      <li>JavaScript (Basic)</li>
+    </ul>
+  </div>
+
+  <!-- SERVICES -->
+  <div id="services" class="popup">
+    <span onclick="closeSection('services')" class="close">×</span>
+
+    <h2>Services</h2>
+
+    <ul>
+      <li>Logo Design</li>
+      <li>Instagram Post Design</li>
+      <li>Business Branding</li>
+      <li>Social Media Content Design</li>
+      <li>Basic Website Landing Pages</li>
+    </ul>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contact" class="popup">
+  <span onclick="closeSection('contact')" class="close">×</span>
+
+  <h2>Contact</h2>
+
+  <p>
+    <b>Email:</b>
+    <a href="mailto:aimenimran.1305@gmail.com">
+      Send Email
+    </a>
+  </p>
+
+  <p>
+    <b>LinkedIn:</b>
+    <a href="https://linkedin.com/in/aimen-imran-219121359" target="_blank">
+      View Profile
+    </a>
+  </p>
+
+  <p><b>Availability:</b> Open for freelance work</p>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
