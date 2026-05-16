@@ -94,10 +94,12 @@ button:hover {
   transform: translate(-50%, -50%);
   width: 70%;
   max-width: 650px;
+  max-height: 80vh;
   background: rgba(0, 0, 0, 0.95);
   border: 1px solid white;
   padding: 30px;
   display: none;
+  overflow-y: auto;
 }
 
 .popup h2 {
